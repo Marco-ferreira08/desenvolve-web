@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Pesquisa de satisfação</h1>
+
+  <p>
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" name="Nome:" id="nome" placeholder="Digite seu nome" required>
+   
+  </p>
+        
+    <p>
+        <label for="email">Digite seu email:</label>
+        <input type="email" name="Email:" id="email" placeholder="Digite seu e-mail" required>
+    </p>
+       
+       <p>
+        <label for="tel">Digite seu telefone:</label>
+        <input type="number" name="Telefone:" id="telefone" placeholder="Digite seu telefone" required>
+       </p>
+  
+       <p>
+        <section>
+            <h2>Dados da Pesquisa</h2>
+            <p>Qual a sua opinião sobre o nosso atendimento?</p>
+            <input type="radio" name="atendimento" id="excelente" value="excelente">
+            <label for="excelente">Excelente</label><br>
+            <input type="radio" name="atendimento" id="bom" value="bom">
+            <label for="bom">Bom</label><br>
+            <input type="radio" name="atendimento" id="ruim" value="ruim">
+            <label for="ruim">Ruim</label><br>
+            <input type="radio" name="atendimento" id="muito_ruim" value="muito_ruim">
+            <label for="muito_ruim">Muito Ruim</label><br>
+
+
+            <p>Qual a sua opinião sobre o nosso produto?</p>
+            <input type="radio" name="produto" id="excelente_produto" value="excelente_produto">
+            <label for="excelente_produto">Excelente</label><br>
+            <input type="radio" name="produto" id="bom_produto" value="bom_produto">
+            <label for="bom_produto">Bom</label><br>
+            <input type="radio" name="produto" id="ruim_produto" value="ruim_produto">
+            <label for="ruim_produto">Ruim</label><br>
+            <input type="radio" name="produto" id="muito_ruim_produto" value="muito_ruim_produto">
+            <label for="muito_ruim_produto">Muito Ruim</label><br>
+
+            <p>Em qual cidade você comprou o produto?</p>
+            <select name="cidade" id="cidade">
+                <option value="sao_paulo">São Paulo</option>
+                <option value="rio_de_janeiro">Rio de Janeiro</option>
+                <option value="belo_horizonte">Belo Horizonte</option>
+                <option value="porto_alegre">Porto Alegre</option>
+                <option value="salvador">Salvador</option>
+                <option value="curitiba">Curitiba</option>
+                <option value="recife">Recife</option>
+                <option value="fortaleza">Fortaleza</option>
+                <option value="brasilia">Brasília</option>
+                <option value="outro">Outro</option>
+            </select><br>
+            <input type="checkbox" name="compartilhar" id="compartilhar" value="sim">
+            <label for="compartilhar">Autorizo o compartilhamento das minhas respostas com terceiros.</label><br>
+            <input type="submit" value="Enviar">
+
+        </section>
+       </p>
+
+
+</body>
+</html>
