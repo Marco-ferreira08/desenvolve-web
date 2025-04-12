@@ -1,0 +1,34 @@
+a {
+    font-family: arial;
+    color: rgb(223, 18, 18);
+}
+
+a:hover {
+    color: rgb(121, 218, 82);
+}
+
+p {
+    font-family: arial;
+    color: rgb(0, 0, 0);
+}
+
+/* Parágrafos declarados após h1 ficarão em negrito */
+h1 + p {
+    font-weight: bold;
+    font-family: Arial;
+}
+
+/* Por padrão, a classe .destaque utilizará a fonte Arial */
+.destaque {
+    font-family: Arial, sans-serif;
+}
+
+/* Se atribuída a um parágrafo (<p>), ficará em negrito */
+p.destaque {
+    font-weight: bold;
+}
+
+/* Se atribuída a um <strong>, ficará em vermelho */
+strong.destaque {
+    color: red;
+}
