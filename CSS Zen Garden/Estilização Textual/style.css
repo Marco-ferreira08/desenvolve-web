@@ -1,0 +1,52 @@
+/* Aspectos Gerais da Página*/
+html {
+    /* Cores da Página */
+    background-color: rgb(160, 231, 172);
+    color: rgb(38, 82, 37);
+    font-size: 18px;
+    font-family: Arial, trebuchet MS, Sans-serif;
+
+/* Destaque Primário */
+.cor_1_fonte {
+        color: rgba(69, 92, 70, 0.911);
+}
+
+/* Destaque  */
+.cor_2 {
+    color: rgb(226, 144, 66);
+}
+
+/* Cor Secundário */
+.cor_3 {
+    color: rgba(130, 236, 236, 0.87);}
+}
+
+p{
+ text-indent: 1em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size:1.2rem;
+}
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
