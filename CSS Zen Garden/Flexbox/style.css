@@ -1,0 +1,158 @@
+html {
+    background-color: rgb(160, 231, 172);
+    color: rgb(38, 82, 37);
+    font-size: 18px;
+    font-family: Arial, trebuchet MS, Sans-serif;
+
+/* Destaque Primário */
+.cor_1_fonte {
+        color: rgba(69, 92, 70, 0.911);
+}
+
+/* Destaque  */
+.cor_2 {
+    color: rgb(226, 144, 66);
+}
+
+/* Cor Secundário */
+.cor_3 {
+    color: rgba(130, 236, 236, 0.87);}
+}
+
+p{
+ text-indent: 1em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size:1.2rem;
+}
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
+
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+.intro{
+    height: 550px;
+}
+
+.desing-archives{
+    display: none;
+}
+
+header{
+    background-color:rgb(42, 90, 49);
+    color: rgb(205, 226, 172);
+    text-align: center;
+}
+
+header > h1, h2 {
+    display: inline-block;
+}
+
+h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 1.1em;
+    text-align: center;
+}
+
+.design-selection {
+    position: absolute;
+    top: 550px;
+    left: 62%;
+    width: 38%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+footer {
+    background-color: rgb(123, 177, 126);
+    margin: 4%;
+    padding: 3px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: rgb(205, 255, 240);
+    border: solid 2px rgb(155, 221, 188);
+    padding: 0.5em;
+    text-align: center;
+    flex-basis: 100px;
+    
+}
+
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: solid 1px #1f295c;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+.benefits{
+    display:flex;
+    border-bottom: solid 1px rgb(39, 95, 95);
+    border-top: solid 1px rgb(39, 95, 95);
+}
+
+.benefts p {
+    flex-basis: 70%;
+}
+
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.participation{
+    display:flex;
+    flex-wrap: wrap;
+    border-top: solid 1px rgb(39, 95, 95);
+
+}
+
+.participation h3, .participation p {
+    flex-basis: 50%;
+}
+
+.participation h3 {
+    align-self: center;
+}
